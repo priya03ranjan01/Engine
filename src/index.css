@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 
+  /* Cambria, Cochin, Georgia, Times, 'Times New Roman', serif */
+  /* 'Courier New', Courier, monospace; */
+  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  
+}
+
+.navlink {
+  @apply font-bold text-lg text-yellow-50 px-5 py-2 md:py-7 hover:bg-[#b00];
+}
+
+.navlink_active {
+  @apply font-bold text-lg text-yellow-50 px-5 md:py-[1.7rem] py-2 bg-gradient-to-b from-[#cd1409] to-[#b00] border-b-4 border-yellow-0;
+}
